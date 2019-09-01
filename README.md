@@ -1,4 +1,14 @@
 # CachingPlayerItem #
+
+[![Swift5 compatible][Swift5Badge]][Swift5Link]
+[![SPM compatible][SPMBadge]][SPMLink]
+
+[Swift5Badge]: https://img.shields.io/badge/swift-5-orange.svg?style=flat
+[Swift5Link]: https://developer.apple.com/swift/
+
+[SPMBadge]: https://img.shields.io/badge/SPM-compatible-brightgreen.svg
+[SPMLink]: https://github.com/apple/swift-package-manager
+
 ### Stream and cache media content on your iOS device ###
 
 CachingPlayerItem is a subclass of AVPlayerItem. It allows you to play and cache audio and video files without having to download them twice. You can start playing a remote file immediately, without waiting it to be downloaded completely. Once it is downloaded, you will be given an opportunity to store it for future use. 
